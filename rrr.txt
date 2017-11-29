@@ -1,0 +1,10 @@
+int unit,int price;
+while(unit>0){
+	if(unit<=10){
+		price=price+0;
+		unit=unit-10;
+	}else if(unit<20){
+		price=price+20;
+		unit=unit-20;
+	}
+}
